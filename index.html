@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sheet 2</title>
+</head>
+
+<body>
+    <!-- form -->
+    <div>
+        <label for="txt">
+            <h1>CONTACT FORM</h1>
+        </label>
+        <div>
+            <div>
+                <input type="text" placeholder="enter your name">
+                <input type="text" placeholder="enter your email add">
+            </div>
+            <div>
+                <input type="text" placeholder="company">
+                <input type="text" placeholder="phone">
+            </div>
+            <div>
+                <textarea placeholder="enter your message" row="20" cols="50"></textarea>
+            </div>
+            <button>SEND MESSAGES</button>
+        </div>
+    </div>
+    <!-- address -->
+    <div>
+        <h1>you can find us here</h1>
+        <p>SAMPLE ADDRESS.SAMPLE STREET.123/45</p>
+        <ul>
+            <li>3(000)0123 3210</li>
+            <li>3(000)0123 3210</li>
+        </ul>
+    </div>
+    <!--team table -->
+    <table>
+        <h1>our team</h1>
+        <tr>
+            <th>name</th>
+            <th>id</th>
+            <th>age</th>
+            <th>job</th>
+        </tr>
+        <tr>
+            <td>mohamed</td>
+            <td>01</td>
+            <td>20</td>
+            <td>engineer</td>
+        </tr>
+        <tr>
+            <td>ahmed</td>
+            <td>02</td>
+            <td>21</td>
+            <td>uiux desinger</td>
+        </tr>
+        <tr>
+            <td>mahmoud</td>
+            <td>03</td>
+            <td>22</td>
+            <td>web desinger</td>
+        </tr>
+        <tr>
+            <td>khaled</td>
+            <td>04</td>
+            <td>32</td>
+            <td>backend dev</td>
+        </tr>
+    </table>
+    <!-- form -->
+    <form action="" method="get">
+        <input type="hidden" value="ahmed">
+        <div>
+            <label>user name</label>
+            <input type="text" required placeholder="username" name="US" value="ahmed" readonly>
+        </div>
+        <br>
+        <div>
+            <label>subject</label>
+            <input type="text" name="sub" autofocus>
+        </div>
+        <br>
+        <div>
+            <label>password</label>
+            <input type="password" required placeholder="write complex password" name="pass" minlength="7"
+                maxlength="14">
+        </div>
+        <br>
+        <div>
+            <label>email</label>
+            <input type="email" required placeholder="write a valid email" value="ahmed@ahmed" name="mail" disabled>
+        </div>
+        <br>
+        <div>
+            <label>range</label>
+            <input type="range" name="range" min="0" max="100" value="0">
+        </div>
+        <br>
+        <div>
+            <label for="num">number</label>
+            <input id="num" type="number" name="number" min="10" max="150" step="10">
+        </div>
+        <br>
+        <hr>
+        <div>
+            <input id="win" type="radio" name="os" value="windows" checked>
+            <label for="win">windows</label>
+        </div>
+        <br>
+        <div>
+            <input id="mac" type="radio" name="os" value="mac">
+            <label for="mac">mac</label>
+        </div>
+        <br>
+        <div>
+            <input id="lin" type="radio" name="os" value="linex">
+            <label for="lin">linex</label>
+        </div>
+        <hr>
+        <div>
+            <input id="win1" type="checkbox" name="os" value="windows">
+            <label for="win1">windows</label>
+        </div>
+        <br>
+        <div>
+            <input id="mac1" type="checkbox" name="os" value="mac" checked>
+            <label for="mac1">mac</label>
+        </div>
+        <br>
+        <div>
+            <input id="lin1" type="checkbox" name="os" value="linex">
+            <label for="lin1">linex</label>
+        </div>
+        <br>
+        <label for="book">select book:</label>
+        <select name="book" id="book">
+            <optgroup label="dramatic">
+                <option value="1" selected>book1</option>
+                <option value="2">book2</option>
+                <option value="3">book3</option>
+            </optgroup>
+            <optgroup label="fantasy">
+                <option value="4">book4</option>
+                <option value="5">book5</option>
+                <option value="6">book6</option>
+            </optgroup>
+        </select>
+        <hr>
+        <div>
+            <label>Uploud</label>
+            <input type="file">
+        </div>
+        <br>
+        <div>
+            <label>search</label>
+            <input type="search">
+        </div>
+        <br>
+        <div>
+            <label>Url</label>
+            <input type="url">
+        </div>
+        <br>
+        <div>
+            <label>date</label>
+            <input type="date">
+        </div>
+        <br>
+        <div>
+            <label>time</label>
+            <input type="time">
+            <input type="submit" value="submit">
+        </div>
+        <h2>this my page</h2>
+        <h1>dont forget to make...</h1>
+        <ul>
+            <li>follow us </li>
+            <li>like video</li>
+            <li>comment</li>
+        </ul>
+    </form>
+</body>
+
+</html>
